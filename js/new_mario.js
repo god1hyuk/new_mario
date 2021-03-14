@@ -218,8 +218,44 @@ setTimeout(function () {
 
 $(function(){
     $(window).scroll(function(){
-        if ($(this).scrollTop()>3000) {
+        if ($(this).scrollTop()>5500) {
             $('body').css("background","#192148").css("transition","all 1s ease-in-out");
+        }
+        else if ($(this).scrollTop()>4400) {
+            $('body').css("background","#71be59").css("transition","all 1s ease-in-out");
+            $('.sec6_title>span:nth-child(2)').delay(300).animate({
+                opacity: '1'
+            }, 10, "linear");
+            $('.sec6_title>span:nth-child(3)').delay(500).animate({
+                opacity: '1'
+            }, 10, "linear");
+            $('.sec6_title>span:nth-child(4)').delay(600).animate({
+                opacity: '1'
+            }, 10, "linear");
+        }
+        else if ($(this).scrollTop()>3300) {
+            $('body').css("background","#b591de").css("transition","all 1s ease-in-out");
+            $('.sec5_title>span:nth-child(2)').delay(300).animate({
+                opacity: '1'
+            }, 10, "linear");
+            $('.sec5_title>span:nth-child(3)').delay(500).animate({
+                opacity: '1'
+            }, 10, "linear");
+            $('.sec5_title>span:nth-child(4)').delay(600).animate({
+                opacity: '1'
+            }, 10, "linear");
+            $('.sec5_title>span:nth-child(5)').delay(700).animate({
+                opacity: '1'
+            }, 10, "linear");
+            $('.sec5_title>span:nth-child(6)').delay(800).animate({
+                opacity: '1'
+            }, 10, "linear");
+            $('.sec5_title>span:nth-child(7)').delay(900).animate({
+                opacity: '1'
+            }, 10, "linear");
+            $('.sec5_title>span:nth-child(8)').delay(1000).animate({
+                opacity: '1'
+            }, 10, "linear");
         }
         else if ($(this).scrollTop()>2200) {
             $('body').css("background","#fcb800").css("transition","all 1s ease-in-out");

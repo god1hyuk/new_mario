@@ -393,7 +393,7 @@ body {
 /* section3 */
 
 .section3 {
-    padding-top: 200px;
+    padding-top: 300px;
 }
 
 .sec_contents_box {
@@ -492,7 +492,7 @@ body {
 /* section4 */
 
 .section4 {
-    padding-top: 200px;
+    padding-top: 300px;
 }
 
 
@@ -504,7 +504,7 @@ body {
 /* section5 */
 
 .section5 {
-    padding-top: 200px;
+    padding-top: 300px;
 }
 
 
@@ -514,6 +514,42 @@ body {
 /* ================================= */
 
 
+/* section6 */
+
+.section6 {
+    padding-top: 300px;
+}
+
+
+/* section6 end */
+/* ================================= */
+/* ================================= */
+/* ================================= */
+
+/* section7 */
+
+.section7 {
+    padding-top: 300px;
+}
+
+
+/* section7 end */
+/* ================================= */
+/* ================================= */
+/* ================================= */
+
+
+/* section8 */
+
+.section8 {
+    padding-top: 300px;
+}
+
+
+/* section8 end */
+/* ================================= */
+/* ================================= */
+/* ================================= */
 
 
 
@@ -523,6 +559,7 @@ body {
 .section10 {
     position: relative;
     bottom: 0;
+    padding-top: 500px;
     padding-bottom: 40%;
     /* background: midnightblue; */
 }
