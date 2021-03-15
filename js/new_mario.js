@@ -576,25 +576,25 @@ $(function(){
             $("body").css("background", "#192148").css("transition", "all 1s ease-in-out");
         }
         else if ($(this).scrollTop()>6600) {
-            $("body").css("background", "#192148").css("transition", "all 1s ease-in-out");
+            $("body").css("background", "#e20019").css("transition", "all 1s ease-in-out");
         }
         else if ($(this).scrollTop()>5500) {
-            $("body").css("background", "#192148").css("transition", "all 1s ease-in-out");
+            $("body").css("background", "#bb8743").css("transition", "all 1s ease-in-out");
         }
         else if ($(this).scrollTop()>4400) {
-            $("body").css("background", "#192148").css("transition", "all 1s ease-in-out");
+            $("body").css("background", "#71be59").css("transition", "all 1s ease-in-out");
         }
         else if ($(this).scrollTop()>3300) {
-            $("body").css("background", "#192148").css("transition", "all 1s ease-in-out");
+            $("body").css("background", "#b591de").css("transition", "all 1s ease-in-out");
         }
         else if ($(this).scrollTop()>2200) {
-            $("body").css("background", "#192148").css("transition", "all 1s ease-in-out");
+            $("body").css("background", "#fcb800").css("transition", "all 1s ease-in-out");
         }
         else if ($(this).scrollTop()>1100) {
-            $("body").css("background", "#192148").css("transition", "all 1s ease-in-out");
+            $("body").css("background", "#1e3996").css("transition", "all 1s ease-in-out");
         }
-        else if ($(this).scrollTop()>6600) {
-            $("body").css("background", "#192148").css("transition", "all 1s ease-in-out");
+        else if ($(this).scrollTop()>800) {
+            $("body").css("background", "#667573").css("transition", "all 1s ease-in-out");
         }
         else {
             $("body").css("background", "#7286f7").css("transition", "all 1s ease-in-out");
