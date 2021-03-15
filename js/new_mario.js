@@ -572,25 +572,25 @@ $(function () {
 
 $(function(){
     $(window).scroll(function(){
-        if ($(this).scrollTop()>7700) {
+        if ($(this).scrollTop()>7500) {
             $("body").css("background", "#192148").css("transition", "all 1s ease-in-out");
         }
-        else if ($(this).scrollTop()>6600) {
+        else if ($(this).scrollTop()>6500) {
             $("body").css("background", "#e20019").css("transition", "all 1s ease-in-out");
         }
         else if ($(this).scrollTop()>5500) {
             $("body").css("background", "#bb8743").css("transition", "all 1s ease-in-out");
         }
-        else if ($(this).scrollTop()>4400) {
+        else if ($(this).scrollTop()>4500) {
             $("body").css("background", "#71be59").css("transition", "all 1s ease-in-out");
         }
-        else if ($(this).scrollTop()>3300) {
+        else if ($(this).scrollTop()>3500) {
             $("body").css("background", "#b591de").css("transition", "all 1s ease-in-out");
         }
-        else if ($(this).scrollTop()>2200) {
+        else if ($(this).scrollTop()>2500) {
             $("body").css("background", "#fcb800").css("transition", "all 1s ease-in-out");
         }
-        else if ($(this).scrollTop()>1100) {
+        else if ($(this).scrollTop()>1500) {
             $("body").css("background", "#1e3996").css("transition", "all 1s ease-in-out");
         }
         else if ($(this).scrollTop()>800) {
