@@ -24,7 +24,7 @@ body {
 } */
 
 /* top button anime */
-.mario_wrap {
+.topBtn_wrap {
   position: fixed;
   bottom: -110px;
   right: 3%;
@@ -629,7 +629,7 @@ body {
 .section9 {
   position: relative;
   bottom: 0;
-  padding-top: 500px;
+  padding-top: 300px;
   padding-bottom: 700px;
   /* background: midnightblue; */
 }
@@ -650,24 +650,8 @@ body {
 .e_clouds img {
   display: block;
   width: 35%;
-  /* margin: 0 35%; */
   margin: 0 auto;
 }
-/* .e_clouds>ul>li:nth-child(1)>img {
-    width: 110px;
-}
-.e_clouds>ul>li:nth-child(2)>img {
-    width: 180px;
-}
-.e_clouds>ul>li:nth-child(3)>img {
-    width: 110px;
-}
-.e_clouds>ul>li:nth-child(4)>img {
-    width: 150px;
-}
-.e_clouds>ul>li:nth-child(5)>img {
-    width: 120px;
-} */
 
 @keyframes e_clouds {
   0% {
@@ -1096,9 +1080,30 @@ body {
 
 .sec9_txt {
     position: absolute;
-    bottom: 350px;
-    left: 15%;
-    font-size: 2.5rem;
-    text-align: center;
-    line-height: 1.5;
+    bottom: 300px;
+    left: 10%;
+    font-size: 1.8rem;
+    /* text-align: center; */
+}
+.sec9_txt>p {
+    padding: 5px 0;
+    opacity: 0;
+}
+.sec9_txt>p:nth-child(3) {
+    padding-top: 30px;
+}
+.sec9_txt>p:nth-child(4) {
+    padding-top: 30px;
+}
+.sec9_txt>p:nth-child(5) {
+    padding-top: 30px;
+    /* animation: gomario 2s linear 3; */
+    /* animation-timing-function: cubic-bezier(0, 1, 0, 1); */
+    /* animation-play-state: paused; */
+}
+
+@keyframes gomario {
+    0% {opacity: 0;}
+    50% {opacity: 1;}
+    100% {opacity: 0;}
 }
